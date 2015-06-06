@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "/type-theme"
+url: "https://rohanchandra.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -26,6 +26,7 @@ theme:
 
   # Scripts
   disqus_shortname: 'doinsomelearnin'
+  google_analytics: "UA-58431978-1" # Tracking ID, e.g. "UA-000000-01"
   katex: true # Enable if using math markup
 
   # Localization strings
