@@ -1,5 +1,5 @@
 ---
-
+title: "Angular Magic"
 ---
 Today I would like to present the magic that is.... **Angular**! 
 
