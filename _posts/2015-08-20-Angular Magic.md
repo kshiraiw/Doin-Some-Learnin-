@@ -11,13 +11,14 @@ But did you know about ng-bind-html or ng-class? I've discovered both recently w
 
 ng-bind-html allows you to insert safe html scripts into your website. If you want your clients to be able to format their own html and display it safely on your own site with only one line of code.
 
-```html
+{% highlight html %}
 <div ng-bind-html="myHtmlString"></div>
-```
+{% endhighlight %}
 
-```javascript
-$scope.myHtmlString = "<p>blah <strong>blah</strong> <em>blah</em>"
-```
+{% highlight javascript %}
+$scope.myHtmlString = "<p>blah <strong>blah</strong> <em>blah</em></p>"
+{% endhighlight %}
+
 This example will look like this:
 blah **blah** *blah*
 
@@ -27,15 +28,15 @@ The other cool thing is ng-class. This allows you to add logic to your css. It i
 
 The documentation tells you to use it as 
 
-```html
-  <div ng-class="{'bold': important}"
-``` 
+{% highlight html %}
+  <div ng-class="{'bold': important}"></div>
+{% endhighlight %}
 
 This means, the bold class will only apply when important is true. However, the way that I find ng-class very useful is when I use ternary operators. 
 
-```html
+{% highlight html %}
 <div ng-class="isChecked ? 'blue' : 'red'"></div>
-```
+{% endhighlight %}
 
 If isChecked is true, the class blue will be applied to this tag. If isChecked is false, the class red will be applied. 
 
