@@ -14,6 +14,7 @@ ng-bind-html allows you to insert safe html scripts into your website. If you wa
 ```html
 <div ng-bind-html="myHtmlString"></div>
 ```
+
 ```javascript
 $scope.myHtmlString = "<p>blah <strong>blah</strong> <em>blah</em>"
 ```
@@ -25,9 +26,11 @@ The client can write his text how he wants to and you don't have to worry about 
 The other cool thing is ng-class. This allows you to add logic to your css. It is pretty awesome. This allows you to have a dynamic layout. For example, if I want to highlight only people that are your friends, you add a css class to only friends.
 
 The documentation tells you to use it as 
+
 ```html
   <div ng-class="{'bold': important}"
-```
+``` 
+
 This means, the bold class will only apply when important is true. However, the way that I find ng-class very useful is when I use ternary operators. 
 
 ```html
