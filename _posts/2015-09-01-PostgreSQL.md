@@ -1,4 +1,4 @@
-hmm... so let's discuss postgres... My relationship with postgres can be defined as very tumultuous. My struggles began with my hacked Ubuntu computer. For some reason, I could never get postgres to even install on my computer. However, postgres seems to be the relational database of choice due to its ability to handle complexity and its open source nature. 
+hmm... so let's discuss postgreSQL... My relationship with postgres can be defined as very tumultuous. My struggles began with my hacked Ubuntu computer. For some reason, I could never get postgres to even install on my computer. However, postgres seems to be the relational database of choice due to its ability to handle complexity and its open source nature. 
 
 I was very excited to try postgres on my mac. Everyone told me that postgres would be problem free! My experience has been quite the opposite. After installation, I typed
 
@@ -23,6 +23,12 @@ first start your database
 Next, in a new tab 
 
 {% highlight console %}
+  psql -U 'your username here' postgres
+{% endhighlight %}
+
+or
+
+{% highlight console %}
   sudo psql -U 'your username here' postgres
 {% endhighlight %}
 This should open up your psql shell and it looks like 
@@ -31,7 +37,10 @@ This should open up your psql shell and it looks like
 
 then you can enter the usual queries such as CREATE ROLE or CREATE DATABASE
 
-If you want to see all your users, type \du and to see all your databases, type \l
+\du -- shows all users
+\l  -- shows all databases
+\c "database name" -- to alternate between databases
+\d "table name"  -- for table schema
 
 To exit, type ctrl + z. The usual ctrl + c does not work here.
 
