@@ -2,11 +2,10 @@
 title: "San Francisco"
 ---
 
-According to my childhood tv experience: SF = Rice A Roni...
+According to my childhood tv experience: SF = Rice A Roni... Week one of Hack Reactor completed. It was a fun week. I met a lot of awesome people and I feel like I learned a lot. Weird to think that in 12 weeks, all of these people, from crazy diverse backgrounds, will be software engineers. 
 
 <center><img src="http://healthpsychology.ucsf.edu/sites/healthpsychology.ucsf.edu/files/wysiwyg/GGBridge%20at%20dusk.jpg"></center>
 
-Week one of Hack Reactor completed. It was a fun week. I met a lot of awesome people and I feel like I learned a lot. Weird to think that in 12 weeks, all of these people, from crazy diverse backgrounds, will be software engineers. 
 
 <center><img src="../img/IMG_0526.JPG"></center>
 Yay! I'm official!

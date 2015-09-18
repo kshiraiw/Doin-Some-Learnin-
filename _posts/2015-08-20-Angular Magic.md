@@ -1,13 +1,10 @@
 ---
 title: "Angular Magic"
 ---
-Today I would like to present the magic that is.... **Angular**! 
-
-Of course everyone knows about the beauty of 2-way data binding. 
+Today I would like to present the magic that is.... **Angular**! Of course everyone knows about the beauty of 2-way data binding but did you know about ng-bind-html or ng-class? I've discovered both recently while working on personal projects and I don't know how I can live without it! 
 
 <center><img src="https://brijbhushan.files.wordpress.com/2015/02/normal.gif"></center>
 
-But did you know about ng-bind-html or ng-class? I've discovered both recently while working on personal projects and I don't know how I can live without it! 
 
 ng-bind-html allows you to insert safe html scripts into your website. If you want your clients to be able to format their own html and display it safely on your own site with only one line of code.
 
